@@ -1,0 +1,20 @@
+/* =General
+-------------------------------------------------------------- */
+.tablenav {
+	height: auto;
+	min-height: 30px;
+}
+
+/* =Form
+-------------------------------------------------------------- */
+div.useruploadsonly {
+	float: left;
+	overflow: hidden;
+	padding: 5px 0 0;
+}
+div.useruploadsonly #useruploadsonly {}
+div.useruploadsonly label {
+	padding: 0 4px;
+	display: inline-block;
+    line-height: 30px;
+}

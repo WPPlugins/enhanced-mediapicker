@@ -1,0 +1,23 @@
+/* =General
+-------------------------------------------------------------- */
+.tablenav {
+	height: auto;
+	min-height: 30px;
+}
+
+/* =Form
+-------------------------------------------------------------- */
+.rowlimit {
+	float: left;
+	padding: 5px 0 0;
+}
+#rowlimit option {
+	padding-right: 6px;
+}
+.rowlimit label {
+	display: inline-block;
+    line-height: 30px;
+    padding-right: 15px;
+    padding-left: 5px;
+    white-space: nowrap;
+}

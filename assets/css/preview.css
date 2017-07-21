@@ -1,0 +1,31 @@
+/* =Magnifier
+-------------------------------------------------------------- */
+.magnifier {
+    background: none repeat scroll 0 0 #333333;
+    color: #FFFFFF;
+    display: none;
+    position: absolute;
+    z-index: 9100;
+    box-shadow: 0 4px 30px #000000;	
+}
+.magnifier .size-limiter {
+    background: none repeat scroll 0 0 #565656;
+}
+#smart-image-magnifier .size-limiter {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+#smart-image-magnifier .size-limiter img {
+    display: block;
+    margin: 0 auto;
+}
+#smart-image-magnifier.previewable img {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+#smart-image-magnifier.previewable img.thumbnail_preview {
+    z-index: 0;
+}
